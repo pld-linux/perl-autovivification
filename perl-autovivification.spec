@@ -3,17 +3,17 @@
 %bcond_with	tests		# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	autovivification
+%define		pdir	autovivification
 Summary:	autovivification - lexically disable autovivification
 Summary(pl.UTF-8):	autovivification - wyłącza automatyczne ożywianie
 Name:		perl-autovivification
-Version:	0.14
+Version:	0.16
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/V/VP/VPIT/%{pdir}-%{version}.tar.gz
-# Source0-md5:	bf0f5133a32685218e8d7ad1aba02deb
+# Source0-md5:	7e20817f6034910c1bc23351d81a0658
 URL:		http://search.cpan.org/dist/autovivification/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.24-2
 BuildRequires:	perl-devel >= 1:5.8.0
