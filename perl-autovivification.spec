@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	autovivification
 Summary:	autovivification - lexically disable autovivification
 Summary(pl.UTF-8):	autovivification - wyłącza automatyczne ożywianie
